@@ -1,3 +1,3 @@
-Survive a frigid wasteland, while a certain guest consumes your world from the inside out.
+Explore a beautiful world of magic and treachery.
 
 This project was built with https://github.com/juraj-hrivnak/.minecraft
