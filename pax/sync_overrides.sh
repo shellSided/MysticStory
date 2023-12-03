@@ -25,11 +25,11 @@ echo "Started syncing files!"
 
 # Sync each directory
 sync_directory "config"
-sync_directory "local"
-sync_directory "oresources"
-sync_directory "patchouli_books"
-sync_directory "resources"
+# sync_directory "local"
+# sync_directory "oresources"
+# sync_directory "patchouli_books"
+# sync_directory "resources"
 sync_directory "scripts"
-sync_directory "structures"
+# sync_directory "structures"
 
 echo "Syncing completed!"

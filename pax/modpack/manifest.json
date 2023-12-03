@@ -12,8 +12,8 @@
   "overrides": "overrides",
   "manifestVersion": 1,
   "version": "@version@",
-  "author": "TemplateModpackAuthor",
-  "name": "TestModpacke",
+  "author": "Deimos",
+  "name": "Mystic Story",
   "files": [
     {
       "projectID": 227449,
@@ -29,14 +29,6 @@
       "required": true,
       "__meta": {
         "name": "Antique Atlas"
-      }
-    },
-    {
-      "projectID": 228027,
-      "fileID": 3647708,
-      "required": true,
-      "__meta": {
-        "name": "BiblioCraft"
       }
     },
     {
@@ -91,17 +83,6 @@
       }
     },
     {
-      "projectID": 229769,
-      "fileID": 3109315,
-      "required": true,
-      "__meta": {
-        "name": "Streams",
-        "dependencies": [
-          229708
-        ]
-      }
-    },
-    {
       "projectID": 229876,
       "fileID": 2483393,
       "required": true,
@@ -126,11 +107,48 @@
       }
     },
     {
-      "projectID": 322506,
-      "fileID": 4518717,
+      "projectID": 254441,
+      "fileID": 2632107,
       "required": true,
       "__meta": {
-        "name": "BSL Shaders"
+        "name": "Fancy Block Particles"
+      }
+    },
+    {
+      "projectID": 357178,
+      "fileID": 3437402,
+      "required": true,
+      "__meta": {
+        "name": "MixinBootstrap",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 408853,
+      "fileID": 4439001,
+      "required": true,
+      "__meta": {
+        "name": "Particle Culling",
+        "dependencies": [
+          357178
+        ]
+      }
+    },
+    {
+      "projectID": 409087,
+      "fileID": 4923453,
+      "required": true,
+      "__meta": {
+        "name": "Entity Culling"
+      }
+    },
+    {
+      "projectID": 419286,
+      "fileID": 4835295,
+      "required": true,
+      "__meta": {
+        "name": "MixinBooter",
+        "explicit": false
       }
     },
     {
@@ -143,6 +161,17 @@
       }
     },
     {
+      "projectID": 460609,
+      "fileID": 4800875,
+      "required": true,
+      "__meta": {
+        "name": "CensoredASM",
+        "dependencies": [
+          419286
+        ]
+      }
+    },
+    {
       "projectID": 485654,
       "fileID": 4564413,
       "required": true,
@@ -152,16 +181,8 @@
       }
     },
     {
-      "projectID": 544096,
-      "fileID": 4278029,
-      "required": true,
-      "__meta": {
-        "name": "Sildur's Vibrant shaders"
-      }
-    },
-    {
       "projectID": 574029,
-      "fileID": 4544741,
+      "fileID": 4848226,
       "required": true,
       "__meta": {
         "name": "Greenery🌿",
@@ -172,11 +193,14 @@
       }
     },
     {
-      "projectID": 627557,
-      "fileID": 4504977,
+      "projectID": 624967,
+      "fileID": 4710694,
       "required": true,
       "__meta": {
-        "name": "Complementary Reimagined"
+        "name": "RenderLib",
+        "dependencies": [
+          357178
+        ]
       }
     }
   ]
